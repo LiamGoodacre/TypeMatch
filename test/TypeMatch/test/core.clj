@@ -25,7 +25,7 @@
 
 ;;  Destructured Vector/Sequence -> True
 (defis ttest-v-1 [:int :str] [42 "Hello, world."])
-(defis ttest-v-2 [[:int :int] :str] [[42 37] "Hello, world."])
+(defis ttest-v-2 [[:int :int] :str] '((42 37) "Hello, world."))
 (defis ttest-v-3 [:-> :int] [1 2 3 4 5])
 (defno ttest-v-4 [:-> :int] [1 2 :foo 4 5])
 
