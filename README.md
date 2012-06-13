@@ -45,8 +45,8 @@ A Clojure type matching library.
 
 ## Todo
 
-Destructure maps and sets.
-Use sequences for detailed matching (with values).
+- Destructure maps and sets.
+- Use sequences for detailed matching (with values).
 
 ## License
 
